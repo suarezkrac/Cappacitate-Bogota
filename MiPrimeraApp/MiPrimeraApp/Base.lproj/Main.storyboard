@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,7 +16,51 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3w-8f-hqK">
+                                <rect key="frame" x="274" y="117" width="53" height="30"/>
+                                <state key="normal" title="Saludar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese su nombre" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TJj-DO-Hb6">
+                                <rect key="frame" x="252" y="66" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="UWY-hg-97p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-s4-vPl">
+                                <rect key="frame" x="16" y="173" width="568" height="89"/>
+                                <color key="backgroundColor" red="0.76916529960000002" green="0.90101067030000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="g60-Z2-PN3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="#cappacitate2015 @appsco @tecnalia_co" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRn-lw-ovb">
+                                <rect key="frame" x="141" y="256" width="319" height="125"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TJj-DO-Hb6" firstAttribute="top" secondItem="JRn-lw-ovb" secondAttribute="bottom" constant="17" id="1NA-1x-Rrx"/>
+                            <constraint firstItem="JRn-lw-ovb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="7tr-eo-jba"/>
+                            <constraint firstItem="mnl-s4-vPl" firstAttribute="centerX" secondItem="H3w-8f-hqK" secondAttribute="centerX" constant="-0.5" id="Ag7-Hb-FnU"/>
+                            <constraint firstItem="JRn-lw-ovb" firstAttribute="centerX" secondItem="TJj-DO-Hb6" secondAttribute="centerX" constant="-0.5" id="Dez-Lm-iyY"/>
+                            <constraint firstItem="mnl-s4-vPl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="DlM-kc-Vdl"/>
+                            <constraint firstAttribute="centerX" secondItem="JRn-lw-ovb" secondAttribute="centerX" id="WMR-BP-vGZ"/>
+                            <constraint firstItem="H3w-8f-hqK" firstAttribute="top" secondItem="TJj-DO-Hb6" secondAttribute="bottom" constant="21" id="kiF-eD-ai2"/>
+                            <constraint firstItem="mnl-s4-vPl" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="oin-26-FnN"/>
+                            <constraint firstItem="mnl-s4-vPl" firstAttribute="top" secondItem="H3w-8f-hqK" secondAttribute="bottom" constant="26" id="sna-b0-AVc"/>
+                            <constraint firstItem="TJj-DO-Hb6" firstAttribute="centerX" secondItem="H3w-8f-hqK" secondAttribute="centerX" id="yfI-ad-Zih"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
