@@ -1,15 +1,13 @@
-//
-//  ViewController.h
-//  MiPrimeraApp
-//
-//  Created by Developer Cymetria on 7/05/15.
-//  Copyright (c) 2015 Mintic. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import "Saludo.h"
 
 @interface ViewController : UIViewController
 
+@property Saludo * hola;
+
+@property (strong, nonatomic) IBOutlet UITextField *userName;
+@property (strong, nonatomic) IBOutlet UILabel *resultado;
+- (IBAction)saludarUsuarioBoton:(id)sender;
 
 @end
 

@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  MiPrimeraApp
+//  Convertidor Temperaturas
 //
 //  Created by Developer Cymetria on 7/05/15.
 //  Copyright (c) 2015 Mintic. All rights reserved.
@@ -16,29 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _hola = [Saludo new];
-}
-
-- (IBAction)saludarUsuarioBoton:(id)sender {
-    
-    [_hola saludarUsuario:_userName.text];
-    _resultado.text = _hola.saludo;
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @end

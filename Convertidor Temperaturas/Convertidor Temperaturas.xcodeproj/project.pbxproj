@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1CC7851AFBCD5B002CF827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7841AFBCD5B002CF827 /* main.m */; };
+		AD1CC7881AFBCD5B002CF827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7871AFBCD5B002CF827 /* AppDelegate.m */; };
+		AD1CC78B1AFBCD5B002CF827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC78A1AFBCD5B002CF827 /* ViewController.m */; };
+		AD1CC78E1AFBCD5B002CF827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1CC78C1AFBCD5B002CF827 /* Main.storyboard */; };
+		AD1CC7901AFBCD5B002CF827 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1CC78F1AFBCD5B002CF827 /* Images.xcassets */; };
+		AD1CC7931AFBCD5B002CF827 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1CC7911AFBCD5B002CF827 /* LaunchScreen.xib */; };
+		AD1CC79F1AFBCD5B002CF827 /* Convertidor_TemperaturasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC79E1AFBCD5B002CF827 /* Convertidor_TemperaturasTests.m */; };
+		AD1CC7A91AFBCFC5002CF827 /* Hot_Day-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1CC7A81AFBCFC5002CF827 /* Hot_Day-512.png */; };
+		AD1CC7AC1AFBD52C002CF827 /* ConverterCtoFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7AB1AFBD52C002CF827 /* ConverterCtoFViewController.m */; };
+		AD1CC7B01AFBDAEE002CF827 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7AF1AFBDAEE002CF827 /* Converter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1CC7991AFBCD5B002CF827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1CC7771AFBCD5B002CF827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1CC77E1AFBCD5B002CF827;
+			remoteInfo = "Convertidor Temperaturas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1CC77F1AFBCD5B002CF827 /* Convertidor Temperaturas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convertidor Temperaturas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1CC7831AFBCD5B002CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1CC7841AFBCD5B002CF827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD1CC7861AFBCD5B002CF827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD1CC7871AFBCD5B002CF827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD1CC7891AFBCD5B002CF827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD1CC78A1AFBCD5B002CF827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD1CC78D1AFBCD5B002CF827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1CC78F1AFBCD5B002CF827 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD1CC7921AFBCD5B002CF827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD1CC7981AFBCD5B002CF827 /* Convertidor TemperaturasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convertidor TemperaturasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1CC79D1AFBCD5B002CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1CC79E1AFBCD5B002CF827 /* Convertidor_TemperaturasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Convertidor_TemperaturasTests.m; sourceTree = "<group>"; };
+		AD1CC7A81AFBCFC5002CF827 /* Hot_Day-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hot_Day-512.png"; sourceTree = "<group>"; };
+		AD1CC7AA1AFBD52C002CF827 /* ConverterCtoFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConverterCtoFViewController.h; path = ../ConverterCtoFViewController.h; sourceTree = "<group>"; };
+		AD1CC7AB1AFBD52C002CF827 /* ConverterCtoFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConverterCtoFViewController.m; path = ../ConverterCtoFViewController.m; sourceTree = "<group>"; };
+		AD1CC7AE1AFBDAEE002CF827 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		AD1CC7AF1AFBDAEE002CF827 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1CC77C1AFBCD5B002CF827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1CC7951AFBCD5B002CF827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1CC7761AFBCD5B002CF827 = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7811AFBCD5B002CF827 /* Convertidor Temperaturas */,
+				AD1CC79B1AFBCD5B002CF827 /* Convertidor TemperaturasTests */,
+				AD1CC7801AFBCD5B002CF827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1CC7801AFBCD5B002CF827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC77F1AFBCD5B002CF827 /* Convertidor Temperaturas.app */,
+				AD1CC7981AFBCD5B002CF827 /* Convertidor TemperaturasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1CC7811AFBCD5B002CF827 /* Convertidor Temperaturas */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7861AFBCD5B002CF827 /* AppDelegate.h */,
+				AD1CC7871AFBCD5B002CF827 /* AppDelegate.m */,
+				AD1CC7B21AFBDAFC002CF827 /* Images */,
+				AD1CC7B11AFBDAF4002CF827 /* Model */,
+				AD1CC7AD1AFBDAD6002CF827 /* Controllers */,
+				AD1CC78C1AFBCD5B002CF827 /* Main.storyboard */,
+				AD1CC78F1AFBCD5B002CF827 /* Images.xcassets */,
+				AD1CC7911AFBCD5B002CF827 /* LaunchScreen.xib */,
+				AD1CC7821AFBCD5B002CF827 /* Supporting Files */,
+			);
+			path = "Convertidor Temperaturas";
+			sourceTree = "<group>";
+		};
+		AD1CC7821AFBCD5B002CF827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7831AFBCD5B002CF827 /* Info.plist */,
+				AD1CC7841AFBCD5B002CF827 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD1CC79B1AFBCD5B002CF827 /* Convertidor TemperaturasTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC79E1AFBCD5B002CF827 /* Convertidor_TemperaturasTests.m */,
+				AD1CC79C1AFBCD5B002CF827 /* Supporting Files */,
+			);
+			path = "Convertidor TemperaturasTests";
+			sourceTree = "<group>";
+		};
+		AD1CC79C1AFBCD5B002CF827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC79D1AFBCD5B002CF827 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD1CC7AD1AFBDAD6002CF827 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7AA1AFBD52C002CF827 /* ConverterCtoFViewController.h */,
+				AD1CC7AB1AFBD52C002CF827 /* ConverterCtoFViewController.m */,
+				AD1CC7891AFBCD5B002CF827 /* ViewController.h */,
+				AD1CC78A1AFBCD5B002CF827 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AD1CC7B11AFBDAF4002CF827 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7AE1AFBDAEE002CF827 /* Converter.h */,
+				AD1CC7AF1AFBDAEE002CF827 /* Converter.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AD1CC7B21AFBDAFC002CF827 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CC7A81AFBCFC5002CF827 /* Hot_Day-512.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1CC77E1AFBCD5B002CF827 /* Convertidor Temperaturas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1CC7A21AFBCD5B002CF827 /* Build configuration list for PBXNativeTarget "Convertidor Temperaturas" */;
+			buildPhases = (
+				AD1CC77B1AFBCD5B002CF827 /* Sources */,
+				AD1CC77C1AFBCD5B002CF827 /* Frameworks */,
+				AD1CC77D1AFBCD5B002CF827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convertidor Temperaturas";
+			productName = "Convertidor Temperaturas";
+			productReference = AD1CC77F1AFBCD5B002CF827 /* Convertidor Temperaturas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1CC7971AFBCD5B002CF827 /* Convertidor TemperaturasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1CC7A51AFBCD5B002CF827 /* Build configuration list for PBXNativeTarget "Convertidor TemperaturasTests" */;
+			buildPhases = (
+				AD1CC7941AFBCD5B002CF827 /* Sources */,
+				AD1CC7951AFBCD5B002CF827 /* Frameworks */,
+				AD1CC7961AFBCD5B002CF827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1CC79A1AFBCD5B002CF827 /* PBXTargetDependency */,
+			);
+			name = "Convertidor TemperaturasTests";
+			productName = "Convertidor TemperaturasTests";
+			productReference = AD1CC7981AFBCD5B002CF827 /* Convertidor TemperaturasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1CC7771AFBCD5B002CF827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mintic;
+				TargetAttributes = {
+					AD1CC77E1AFBCD5B002CF827 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AD1CC7971AFBCD5B002CF827 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AD1CC77E1AFBCD5B002CF827;
+					};
+				};
+			};
+			buildConfigurationList = AD1CC77A1AFBCD5B002CF827 /* Build configuration list for PBXProject "Convertidor Temperaturas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1CC7761AFBCD5B002CF827;
+			productRefGroup = AD1CC7801AFBCD5B002CF827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1CC77E1AFBCD5B002CF827 /* Convertidor Temperaturas */,
+				AD1CC7971AFBCD5B002CF827 /* Convertidor TemperaturasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1CC77D1AFBCD5B002CF827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1CC78E1AFBCD5B002CF827 /* Main.storyboard in Resources */,
+				AD1CC7931AFBCD5B002CF827 /* LaunchScreen.xib in Resources */,
+				AD1CC7901AFBCD5B002CF827 /* Images.xcassets in Resources */,
+				AD1CC7A91AFBCFC5002CF827 /* Hot_Day-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1CC7961AFBCD5B002CF827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1CC77B1AFBCD5B002CF827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1CC7B01AFBDAEE002CF827 /* Converter.m in Sources */,
+				AD1CC78B1AFBCD5B002CF827 /* ViewController.m in Sources */,
+				AD1CC7881AFBCD5B002CF827 /* AppDelegate.m in Sources */,
+				AD1CC7851AFBCD5B002CF827 /* main.m in Sources */,
+				AD1CC7AC1AFBD52C002CF827 /* ConverterCtoFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1CC7941AFBCD5B002CF827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1CC79F1AFBCD5B002CF827 /* Convertidor_TemperaturasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1CC79A1AFBCD5B002CF827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1CC77E1AFBCD5B002CF827 /* Convertidor Temperaturas */;
+			targetProxy = AD1CC7991AFBCD5B002CF827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1CC78C1AFBCD5B002CF827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1CC78D1AFBCD5B002CF827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1CC7911AFBCD5B002CF827 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1CC7921AFBCD5B002CF827 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1CC7A01AFBCD5B002CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD1CC7A11AFBCD5B002CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1CC7A31AFBCD5B002CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convertidor Temperaturas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD1CC7A41AFBCD5B002CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convertidor Temperaturas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD1CC7A61AFBCD5B002CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Convertidor TemperaturasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convertidor Temperaturas.app/Convertidor Temperaturas";
+			};
+			name = Debug;
+		};
+		AD1CC7A71AFBCD5B002CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Convertidor TemperaturasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convertidor Temperaturas.app/Convertidor Temperaturas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1CC77A1AFBCD5B002CF827 /* Build configuration list for PBXProject "Convertidor Temperaturas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1CC7A01AFBCD5B002CF827 /* Debug */,
+				AD1CC7A11AFBCD5B002CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1CC7A21AFBCD5B002CF827 /* Build configuration list for PBXNativeTarget "Convertidor Temperaturas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1CC7A31AFBCD5B002CF827 /* Debug */,
+				AD1CC7A41AFBCD5B002CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD1CC7A51AFBCD5B002CF827 /* Build configuration list for PBXNativeTarget "Convertidor TemperaturasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1CC7A61AFBCD5B002CF827 /* Debug */,
+				AD1CC7A71AFBCD5B002CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1CC7771AFBCD5B002CF827 /* Project object */;
+}
