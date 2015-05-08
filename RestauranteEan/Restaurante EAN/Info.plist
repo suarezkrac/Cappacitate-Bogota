@@ -26,6 +26,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Esta aplicacion ubicara el restaurante de su universidad</string>
+	<key>NSLocationWhenUsageDescription</key>
+	<string>En este momento todavia estamos obteniendo su ubicacion</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

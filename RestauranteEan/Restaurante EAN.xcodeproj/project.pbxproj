@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A60C3651AFCEA5600D8E47B /* hotel-castell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A60C3641AFCEA5600D8E47B /* hotel-castell.jpg */; };
+		6A60C3671AFCEEC500D8E47B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A60C3661AFCEEC500D8E47B /* CoreLocation.framework */; };
+		6A60C3691AFCEED700D8E47B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A60C3681AFCEED700D8E47B /* MapKit.framework */; };
+		6A60C36C1AFCEF4200D8E47B /* MiPunto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C36B1AFCEF4200D8E47B /* MiPunto.m */; };
+		6A60C36F1AFCF26200D8E47B /* MapaIOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C36E1AFCF26200D8E47B /* MapaIOSViewController.m */; };
 		AD1CC7C21AFBF052002CF827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7C11AFBF052002CF827 /* main.m */; };
 		AD1CC7C51AFBF052002CF827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7C41AFBF052002CF827 /* AppDelegate.m */; };
 		AD1CC7C81AFBF052002CF827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7C71AFBF052002CF827 /* ViewController.m */; };
@@ -29,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A60C3641AFCEA5600D8E47B /* hotel-castell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hotel-castell.jpg"; sourceTree = "<group>"; };
+		6A60C3661AFCEEC500D8E47B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A60C3681AFCEED700D8E47B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A60C36A1AFCEF4200D8E47B /* MiPunto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiPunto.h; sourceTree = "<group>"; };
+		6A60C36B1AFCEF4200D8E47B /* MiPunto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiPunto.m; sourceTree = "<group>"; };
+		6A60C36D1AFCF26200D8E47B /* MapaIOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaIOSViewController.h; sourceTree = "<group>"; };
+		6A60C36E1AFCF26200D8E47B /* MapaIOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaIOSViewController.m; sourceTree = "<group>"; };
 		AD1CC7BC1AFBF052002CF827 /* Restaurante EAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurante EAN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1CC7C01AFBF052002CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1CC7C11AFBF052002CF827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A60C3691AFCEED700D8E47B /* MapKit.framework in Frameworks */,
+				6A60C3671AFCEEC500D8E47B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,13 @@
 		AD1CC7B31AFBF052002CF827 = {
 			isa = PBXGroup;
 			children = (
+				6A60C36D1AFCF26200D8E47B /* MapaIOSViewController.h */,
+				6A60C36E1AFCF26200D8E47B /* MapaIOSViewController.m */,
+				6A60C36A1AFCEF4200D8E47B /* MiPunto.h */,
+				6A60C36B1AFCEF4200D8E47B /* MiPunto.m */,
+				6A60C3681AFCEED700D8E47B /* MapKit.framework */,
+				6A60C3661AFCEEC500D8E47B /* CoreLocation.framework */,
+				6A60C3641AFCEA5600D8E47B /* hotel-castell.jpg */,
 				AD1CC7E71AFBF3F1002CF827 /* HomeViewController.h */,
 				AD1CC7E81AFBF3F1002CF827 /* HomeViewController.m */,
 				AD1CC7E51AFBF153002CF827 /* logo.png */,
@@ -210,6 +231,7 @@
 				AD1CC7E61AFBF153002CF827 /* logo.png in Resources */,
 				AD1CC7CB1AFBF052002CF827 /* Main.storyboard in Resources */,
 				AD1CC7D01AFBF052002CF827 /* LaunchScreen.xib in Resources */,
+				6A60C3651AFCEA5600D8E47B /* hotel-castell.jpg in Resources */,
 				AD1CC7CD1AFBF052002CF827 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,8 +252,10 @@
 			files = (
 				AD1CC7C81AFBF052002CF827 /* ViewController.m in Sources */,
 				AD1CC7C51AFBF052002CF827 /* AppDelegate.m in Sources */,
+				6A60C36C1AFCEF4200D8E47B /* MiPunto.m in Sources */,
 				AD1CC7C21AFBF052002CF827 /* main.m in Sources */,
 				AD1CC7E91AFBF3F1002CF827 /* HomeViewController.m in Sources */,
+				6A60C36F1AFCF26200D8E47B /* MapaIOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +450,7 @@
 				AD1CC7E11AFBF053002CF827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1CC7E21AFBF053002CF827 /* Build configuration list for PBXNativeTarget "Restaurante EANTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +459,7 @@
 				AD1CC7E41AFBF053002CF827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
