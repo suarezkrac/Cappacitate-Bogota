@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AA6B8B4F-0789-414C-8E87-AA00E0BCCF40</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Restaurante EAN</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>237F740DD51771E920100CD0820788365A0C5CC3</key>
 		<string>https://github.com/suarezkrac/Cappacitate-Bogota.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RestauranteEan/Restaurante EAN.xcodeproj</string>
+	<string>RestauranteEan/Restaurante EAN.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>237F740DD51771E920100CD0820788365A0C5CC3</key>
