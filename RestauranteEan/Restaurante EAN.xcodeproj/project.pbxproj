@@ -23,6 +23,8 @@
 		AD1CC7E91AFBF3F1002CF827 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC7E81AFBF3F1002CF827 /* HomeViewController.m */; };
 		ADB7BCB41AFD0233007776D0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB7BCB31AFD0233007776D0 /* GoogleMaps.framework */; };
 		ADB7BCB61AFD024F007776D0 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BCB51AFD024F007776D0 /* GoogleMaps.bundle */; };
+		ADB7BCB91AFD058E007776D0 /* GoogleMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BCB81AFD058E007776D0 /* GoogleMapsViewController.m */; };
+		ADB7BCBC1AFD1129007776D0 /* NavegadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BCBB1AFD1129007776D0 /* NavegadorViewController.m */; };
 		ADFA3C8C1AFCFF2B009D5B2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFA3C8B1AFCFF2B009D5B2D /* AVFoundation.framework */; };
 		ADFA3C8E1AFCFF31009D5B2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFA3C8D1AFCFF31009D5B2D /* CoreData.framework */; };
 		ADFA3C901AFCFF39009D5B2D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFA3C8F1AFCFF39009D5B2D /* CoreText.framework */; };
@@ -72,6 +74,10 @@
 		AD1CC7E81AFBF3F1002CF827 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		ADB7BCB31AFD0233007776D0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		ADB7BCB51AFD024F007776D0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		ADB7BCB71AFD058E007776D0 /* GoogleMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsViewController.h; sourceTree = "<group>"; };
+		ADB7BCB81AFD058E007776D0 /* GoogleMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsViewController.m; sourceTree = "<group>"; };
+		ADB7BCBA1AFD1129007776D0 /* NavegadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavegadorViewController.h; sourceTree = "<group>"; };
+		ADB7BCBB1AFD1129007776D0 /* NavegadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavegadorViewController.m; sourceTree = "<group>"; };
 		ADFA3C8B1AFCFF2B009D5B2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ADFA3C8D1AFCFF31009D5B2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ADFA3C8F1AFCFF39009D5B2D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,8 @@
 		AD1CC7B31AFBF052002CF827 = {
 			isa = PBXGroup;
 			children = (
+				ADB7BCBA1AFD1129007776D0 /* NavegadorViewController.h */,
+				ADB7BCBB1AFD1129007776D0 /* NavegadorViewController.m */,
 				ADB7BCB51AFD024F007776D0 /* GoogleMaps.bundle */,
 				ADB7BCB31AFD0233007776D0 /* GoogleMaps.framework */,
 				ADFA3C9F1AFCFF7A009D5B2D /* SystemConfiguration.framework */,
@@ -166,6 +174,8 @@
 				AD1CC7C61AFBF052002CF827 /* ViewController.h */,
 				AD1CC7C71AFBF052002CF827 /* ViewController.m */,
 				AD1CC7C91AFBF052002CF827 /* Main.storyboard */,
+				ADB7BCB71AFD058E007776D0 /* GoogleMapsViewController.h */,
+				ADB7BCB81AFD058E007776D0 /* GoogleMapsViewController.m */,
 				AD1CC7CC1AFBF052002CF827 /* Images.xcassets */,
 				AD1CC7CE1AFBF052002CF827 /* LaunchScreen.xib */,
 				AD1CC7BF1AFBF052002CF827 /* Supporting Files */,
@@ -302,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB7BCB91AFD058E007776D0 /* GoogleMapsViewController.m in Sources */,
 				AD1CC7C81AFBF052002CF827 /* ViewController.m in Sources */,
+				ADB7BCBC1AFD1129007776D0 /* NavegadorViewController.m in Sources */,
 				AD1CC7C51AFBF052002CF827 /* AppDelegate.m in Sources */,
 				6A60C36C1AFCEF4200D8E47B /* MiPunto.m in Sources */,
 				AD1CC7C21AFBF052002CF827 /* main.m in Sources */,

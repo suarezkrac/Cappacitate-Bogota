@@ -141,6 +141,9 @@
                                 <state key="normal" title="Sitio Web">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hKI-hw-cJM" kind="show" id="nzd-zX-2yD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.9937525774" blue="0.89239506000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -169,6 +172,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MC4-Ho-GQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1965" y="307"/>
+        </scene>
+        <!--Navegador View Controller-->
+        <scene sceneID="Iqn-Yp-kqb">
+            <objects>
+                <viewController id="hKI-hw-cJM" customClass="NavegadorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O0v-zZ-fVm"/>
+                        <viewControllerLayoutGuide type="bottom" id="faC-Z9-6Zj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L1g-UJ-tja">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Obh-aZ-m4a">
+                                <rect key="frame" x="16" y="72" width="568" height="520"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Xri-aP-7d5">
+                                <rect key="frame" x="282" y="313" width="37" height="37"/>
+                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xri-aP-7d5" firstAttribute="centerY" secondItem="Obh-aZ-m4a" secondAttribute="centerY" constant="-0.5" id="2ew-PW-KT4"/>
+                            <constraint firstItem="faC-Z9-6Zj" firstAttribute="top" secondItem="Obh-aZ-m4a" secondAttribute="bottom" constant="8" id="PzS-JB-VuR"/>
+                            <constraint firstItem="Obh-aZ-m4a" firstAttribute="top" secondItem="O0v-zZ-fVm" secondAttribute="bottom" constant="8" id="iBU-E8-kBP"/>
+                            <constraint firstItem="Obh-aZ-m4a" firstAttribute="leading" secondItem="L1g-UJ-tja" secondAttribute="leadingMargin" id="jgf-G4-Yrz"/>
+                            <constraint firstItem="Xri-aP-7d5" firstAttribute="centerX" secondItem="Obh-aZ-m4a" secondAttribute="centerX" constant="0.5" id="rJp-h5-0Ut"/>
+                            <constraint firstItem="Obh-aZ-m4a" firstAttribute="trailing" secondItem="L1g-UJ-tja" secondAttribute="trailingMargin" id="xdc-MH-ZNr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animacion" destination="Xri-aP-7d5" id="S4I-cl-Mkz"/>
+                        <outlet property="browser" destination="Obh-aZ-m4a" id="YIU-jn-ME1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Blk-Th-g46" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1972" y="1044"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="nEb-QP-0l4">
@@ -814,6 +857,9 @@
                                 <state key="normal" title="Mapas Google">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="eq3-yh-BYH" kind="show" id="3ls-gv-UhH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92592645520000005" green="1" blue="0.43243363610000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -828,6 +874,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Hj-sR-rZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2768" y="849"/>
+        </scene>
+        <!--Google Maps View Controller-->
+        <scene sceneID="Izu-ZA-ACh">
+            <objects>
+                <viewController id="eq3-yh-BYH" customClass="GoogleMapsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b2l-TP-5Fm"/>
+                        <viewControllerLayoutGuide type="bottom" id="fba-am-UdD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CW7-Ul-HOA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocU-cY-3Dc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3307" y="1595"/>
         </scene>
         <!--MapaIOS View Controller-->
         <scene sceneID="tTO-oW-p3T">

@@ -22,13 +22,19 @@
     _locationManager = [[CLLocationManager alloc] init];
     _locationManager.delegate = self;
     [_locationManager requestAlwaysAuthorization];
+    
     [_myMap setShowsUserLocation:YES];
 }
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
     MKCoordinateRegion zonaZoom = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 300, 300);
+    
+    NSLog(@"longitud: %f y latitud: %f", [userLocation coordinate].longitude, [userLocation coordinate].latitude);
+    
     [_myMap setRegion:zonaZoom animated:YES];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
