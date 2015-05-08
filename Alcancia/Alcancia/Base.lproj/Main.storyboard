@@ -38,19 +38,31 @@
                                     <constraint firstAttribute="height" constant="106" id="lPp-be-aP2"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMb-nd-ygF">
+                                <rect key="frame" x="487" y="278" width="63" height="30"/>
+                                <state key="normal" title="Recordar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rememberGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MCI-Ns-ctN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="PdK-Ej-k5I" secondAttribute="bottom" constant="20" id="8cZ-i4-neP"/>
+                            <constraint firstItem="gEG-tw-jhP" firstAttribute="centerX" secondItem="JMb-nd-ygF" secondAttribute="centerX" id="9pe-T1-prc"/>
                             <constraint firstItem="MTb-dS-8Fr" firstAttribute="centerX" secondItem="gEG-tw-jhP" secondAttribute="centerX" id="DTm-GQ-o3r"/>
                             <constraint firstAttribute="centerX" secondItem="PdK-Ej-k5I" secondAttribute="centerX" id="Lde-g8-d0M"/>
                             <constraint firstItem="MTb-dS-8Fr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="LxE-EQ-at8"/>
                             <constraint firstItem="gEG-tw-jhP" firstAttribute="top" secondItem="MTb-dS-8Fr" secondAttribute="bottom" constant="8" id="QwN-ns-yDD"/>
+                            <constraint firstItem="JMb-nd-ygF" firstAttribute="top" secondItem="gEG-tw-jhP" secondAttribute="bottom" constant="8" id="hwt-fe-Lkp"/>
                             <constraint firstItem="gEG-tw-jhP" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="nJ8-EP-2gv"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="DBk-fx-rhe" appends="YES" id="et8-uK-9he"/>
+                            <outletCollection property="gestureRecognizers" destination="RMu-eb-moE" appends="YES" id="W6V-y6-mWu"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Alcancia" id="ifc-97-pIS">
@@ -68,6 +80,7 @@
                     <connections>
                         <outlet property="cameraButton" destination="apr-L0-ZVa" id="iN9-br-MCL"/>
                         <outlet property="imagePhoto" destination="gEG-tw-jhP" id="odR-UW-H8m"/>
+                        <outlet property="panGesture" destination="RMu-eb-moE" id="po2-TO-veh"/>
                         <outlet property="tapGesture" destination="DBk-fx-rhe" id="fFH-Xz-5O3"/>
                     </connections>
                 </viewController>
@@ -77,6 +90,11 @@
                         <action selector="createCoin:" destination="vXZ-lx-hvc" id="1jA-Bs-wWH"/>
                     </connections>
                 </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="RMu-eb-moE">
+                    <connections>
+                        <action selector="moveCoin:" destination="vXZ-lx-hvc" id="EV2-Ye-46p"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="856" y="-388"/>
         </scene>

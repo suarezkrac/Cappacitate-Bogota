@@ -42,7 +42,25 @@
     UIImageView * coinView = [[UIImageView alloc] initWithImage:coin];
     coinView.transform = CGAffineTransformScale(coinView.transform, 0.1, 0.1);
     coinView.center = CGPointMake(100, 100);
+    coinView.userInteractionEnabled = YES;
+    [coinView addGestureRecognizer:_panGesture];
     [self.view addSubview:coinView];
+}
+- (IBAction)moveCoin:(id)sender {
+    UIPanGestureRecognizer * pan = sender;
+    CGPoint translation = [pan translationInView:self.view];
+    pan.view.center = CGPointMake(pan.view.center.x + translation.x, pan.view.center.y+ translation.y);
+    [pan setTranslation:CGPointMake(0, 0) inView:self.view];
+}
+
+- (IBAction)rememberGame:(id)sender {
+    UILocalNotification * aviso = [[UILocalNotification alloc] init];
+    aviso.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
+    aviso.alertBody = @"Recuerda ahorrar en tu alcancia";
+    aviso.timeZone = [NSTimeZone defaultTimeZone];
+    aviso.applicationIconBadgeNumber = [[UIApplication sharedApplication] applicationIconBadgeNumber ] + 1;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:aviso];
     
     
 }
