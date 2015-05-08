@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB7BD021AFD5144007776D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BD011AFD5144007776D0 /* AppDelegate.swift */; };
+		ADB7BD041AFD5144007776D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BD031AFD5144007776D0 /* ViewController.swift */; };
+		ADB7BD071AFD5144007776D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BD051AFD5144007776D0 /* Main.storyboard */; };
+		ADB7BD091AFD5144007776D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BD081AFD5144007776D0 /* Images.xcassets */; };
+		ADB7BD0C1AFD5144007776D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BD0A1AFD5144007776D0 /* LaunchScreen.xib */; };
+		ADB7BD181AFD5145007776D0 /* SpeedTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BD171AFD5145007776D0 /* SpeedTouchTests.swift */; };
+		ADB7BD221AFD51E1007776D0 /* panicbutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BD211AFD51E1007776D0 /* panicbutton.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB7BD121AFD5145007776D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB7BCF41AFD5144007776D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB7BCFB1AFD5144007776D0;
+			remoteInfo = SpeedTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADB7BCFC1AFD5144007776D0 /* SpeedTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB7BD001AFD5144007776D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB7BD011AFD5144007776D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADB7BD031AFD5144007776D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADB7BD061AFD5144007776D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADB7BD081AFD5144007776D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADB7BD0B1AFD5144007776D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADB7BD111AFD5145007776D0 /* SpeedTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB7BD161AFD5145007776D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB7BD171AFD5145007776D0 /* SpeedTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTouchTests.swift; sourceTree = "<group>"; };
+		ADB7BD211AFD51E1007776D0 /* panicbutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panicbutton.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB7BCF91AFD5144007776D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7BD0E1AFD5145007776D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB7BCF31AFD5144007776D0 = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD211AFD51E1007776D0 /* panicbutton.jpg */,
+				ADB7BCFE1AFD5144007776D0 /* SpeedTouch */,
+				ADB7BD141AFD5145007776D0 /* SpeedTouchTests */,
+				ADB7BCFD1AFD5144007776D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB7BCFD1AFD5144007776D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BCFC1AFD5144007776D0 /* SpeedTouch.app */,
+				ADB7BD111AFD5145007776D0 /* SpeedTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB7BCFE1AFD5144007776D0 /* SpeedTouch */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD011AFD5144007776D0 /* AppDelegate.swift */,
+				ADB7BD031AFD5144007776D0 /* ViewController.swift */,
+				ADB7BD051AFD5144007776D0 /* Main.storyboard */,
+				ADB7BD081AFD5144007776D0 /* Images.xcassets */,
+				ADB7BD0A1AFD5144007776D0 /* LaunchScreen.xib */,
+				ADB7BCFF1AFD5144007776D0 /* Supporting Files */,
+			);
+			path = SpeedTouch;
+			sourceTree = "<group>";
+		};
+		ADB7BCFF1AFD5144007776D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD001AFD5144007776D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB7BD141AFD5145007776D0 /* SpeedTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD171AFD5145007776D0 /* SpeedTouchTests.swift */,
+				ADB7BD151AFD5145007776D0 /* Supporting Files */,
+			);
+			path = SpeedTouchTests;
+			sourceTree = "<group>";
+		};
+		ADB7BD151AFD5145007776D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD161AFD5145007776D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB7BCFB1AFD5144007776D0 /* SpeedTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB7BD1B1AFD5145007776D0 /* Build configuration list for PBXNativeTarget "SpeedTouch" */;
+			buildPhases = (
+				ADB7BCF81AFD5144007776D0 /* Sources */,
+				ADB7BCF91AFD5144007776D0 /* Frameworks */,
+				ADB7BCFA1AFD5144007776D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTouch;
+			productName = SpeedTouch;
+			productReference = ADB7BCFC1AFD5144007776D0 /* SpeedTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB7BD101AFD5145007776D0 /* SpeedTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB7BD1E1AFD5145007776D0 /* Build configuration list for PBXNativeTarget "SpeedTouchTests" */;
+			buildPhases = (
+				ADB7BD0D1AFD5145007776D0 /* Sources */,
+				ADB7BD0E1AFD5145007776D0 /* Frameworks */,
+				ADB7BD0F1AFD5145007776D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB7BD131AFD5145007776D0 /* PBXTargetDependency */,
+			);
+			name = SpeedTouchTests;
+			productName = SpeedTouchTests;
+			productReference = ADB7BD111AFD5145007776D0 /* SpeedTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB7BCF41AFD5144007776D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mintic;
+				TargetAttributes = {
+					ADB7BCFB1AFD5144007776D0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ADB7BD101AFD5145007776D0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = ADB7BCFB1AFD5144007776D0;
+					};
+				};
+			};
+			buildConfigurationList = ADB7BCF71AFD5144007776D0 /* Build configuration list for PBXProject "SpeedTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB7BCF31AFD5144007776D0;
+			productRefGroup = ADB7BCFD1AFD5144007776D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB7BCFB1AFD5144007776D0 /* SpeedTouch */,
+				ADB7BD101AFD5145007776D0 /* SpeedTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB7BCFA1AFD5144007776D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7BD071AFD5144007776D0 /* Main.storyboard in Resources */,
+				ADB7BD221AFD51E1007776D0 /* panicbutton.jpg in Resources */,
+				ADB7BD0C1AFD5144007776D0 /* LaunchScreen.xib in Resources */,
+				ADB7BD091AFD5144007776D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7BD0F1AFD5145007776D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB7BCF81AFD5144007776D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7BD041AFD5144007776D0 /* ViewController.swift in Sources */,
+				ADB7BD021AFD5144007776D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7BD0D1AFD5145007776D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7BD181AFD5145007776D0 /* SpeedTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB7BD131AFD5145007776D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB7BCFB1AFD5144007776D0 /* SpeedTouch */;
+			targetProxy = ADB7BD121AFD5145007776D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADB7BD051AFD5144007776D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB7BD061AFD5144007776D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADB7BD0A1AFD5144007776D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB7BD0B1AFD5144007776D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB7BD191AFD5145007776D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADB7BD1A1AFD5145007776D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB7BD1C1AFD5145007776D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADB7BD1D1AFD5145007776D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADB7BD1F1AFD5145007776D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTouch.app/SpeedTouch";
+			};
+			name = Debug;
+		};
+		ADB7BD201AFD5145007776D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTouch.app/SpeedTouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB7BCF71AFD5144007776D0 /* Build configuration list for PBXProject "SpeedTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB7BD191AFD5145007776D0 /* Debug */,
+				ADB7BD1A1AFD5145007776D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB7BD1B1AFD5145007776D0 /* Build configuration list for PBXNativeTarget "SpeedTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB7BD1C1AFD5145007776D0 /* Debug */,
+				ADB7BD1D1AFD5145007776D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADB7BD1E1AFD5145007776D0 /* Build configuration list for PBXNativeTarget "SpeedTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB7BD1F1AFD5145007776D0 /* Debug */,
+				ADB7BD201AFD5145007776D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB7BCF41AFD5144007776D0 /* Project object */;
+}
