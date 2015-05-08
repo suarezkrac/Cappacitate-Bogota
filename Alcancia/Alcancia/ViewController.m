@@ -37,4 +37,13 @@
     camara.delegate = self;
     [self presentViewController:camara animated:YES completion:nil];
 }
+- (IBAction)createCoin:(id)sender {
+    UIImage * coin = [UIImage imageNamed:@"Coin-icon.png"];
+    UIImageView * coinView = [[UIImageView alloc] initWithImage:coin];
+    coinView.transform = CGAffineTransformScale(coinView.transform, 0.1, 0.1);
+    coinView.center = CGPointMake(100, 100);
+    [self.view addSubview:coinView];
+    
+    
+}
 @end

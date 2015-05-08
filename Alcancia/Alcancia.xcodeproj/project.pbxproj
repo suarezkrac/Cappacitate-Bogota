@@ -14,6 +14,8 @@
 		ADB7BCD71AFD3673007776D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BCD61AFD3673007776D0 /* Images.xcassets */; };
 		ADB7BCDA1AFD3673007776D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BCD81AFD3673007776D0 /* LaunchScreen.xib */; };
 		ADB7BCE61AFD3673007776D0 /* AlcanciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB7BCE51AFD3673007776D0 /* AlcanciaTests.m */; };
+		ADB7BCF11AFD44D0007776D0 /* 1405348534.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BCEF1AFD44D0007776D0 /* 1405348534.png */; };
+		ADB7BCF21AFD44D0007776D0 /* Coin-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB7BCF01AFD44D0007776D0 /* Coin-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		ADB7BCDF1AFD3673007776D0 /* AlcanciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcanciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB7BCE41AFD3673007776D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADB7BCE51AFD3673007776D0 /* AlcanciaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcanciaTests.m; sourceTree = "<group>"; };
+		ADB7BCEF1AFD44D0007776D0 /* 1405348534.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1405348534.png; sourceTree = "<group>"; };
+		ADB7BCF01AFD44D0007776D0 /* Coin-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coin-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		ADB7BCBD1AFD3673007776D0 = {
 			isa = PBXGroup;
 			children = (
+				ADB7BCEF1AFD44D0007776D0 /* 1405348534.png */,
+				ADB7BCF01AFD44D0007776D0 /* Coin-icon.png */,
 				ADB7BCC81AFD3673007776D0 /* Alcancia */,
 				ADB7BCE21AFD3673007776D0 /* AlcanciaTests */,
 				ADB7BCC71AFD3673007776D0 /* Products */,
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB7BCD51AFD3673007776D0 /* Main.storyboard in Resources */,
+				ADB7BCF21AFD44D0007776D0 /* Coin-icon.png in Resources */,
 				ADB7BCDA1AFD3673007776D0 /* LaunchScreen.xib in Resources */,
+				ADB7BCF11AFD44D0007776D0 /* 1405348534.png in Resources */,
 				ADB7BCD71AFD3673007776D0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
