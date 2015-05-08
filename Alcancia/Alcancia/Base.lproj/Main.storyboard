@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rwI-6H-LEL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alcancia-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gEG-tw-jhP">
+                                <rect key="frame" x="453" y="123" width="131" height="147"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="127-ND-CQi"/>
+                                    <constraint firstAttribute="height" constant="147" id="BY6-Pb-J8k"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foto Perfil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTb-dS-8Fr">
+                                <rect key="frame" x="479" y="94" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MTb-dS-8Fr" firstAttribute="centerX" secondItem="gEG-tw-jhP" secondAttribute="centerX" id="DTm-GQ-o3r"/>
+                            <constraint firstItem="MTb-dS-8Fr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="LxE-EQ-at8"/>
+                            <constraint firstItem="gEG-tw-jhP" firstAttribute="top" secondItem="MTb-dS-8Fr" secondAttribute="bottom" constant="8" id="QwN-ns-yDD"/>
+                            <constraint firstItem="gEG-tw-jhP" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="nJ8-EP-2gv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alcancia" id="ifc-97-pIS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="RPd-l3-bH0">
+                            <connections>
+                                <action selector="loadPhotoGallery:" destination="vXZ-lx-hvc" id="ROZ-kX-2rD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="apr-L0-ZVa">
+                            <connections>
+                                <action selector="loadPhotoCamera:" destination="vXZ-lx-hvc" id="vzF-9S-Via"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="apr-L0-ZVa" id="iN9-br-MCL"/>
+                        <outlet property="imagePhoto" destination="gEG-tw-jhP" id="odR-UW-H8m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="856" y="-388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rgW-UZ-5mz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rwI-6H-LEL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I1w-iX-pVv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="4cD-n8-cFc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MCU-jo-x2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="-388"/>
+        </scene>
+    </scenes>
+</document>
